@@ -148,7 +148,8 @@ img{
 }
 
 
-/* main */
+/* hero section */
+
 .hero{
     padding: 200px 0px;
     height: 600px;
@@ -171,7 +172,7 @@ img{
 
 
 
-/* hero section */
+
 .hero__container{
     text-align: center;
     width: 696px;
@@ -344,6 +345,10 @@ img{
     fill: var(--white-color);
     background-color: var(--brand-color)
    }
+   .social-media__link--second-color{
+    fill: var(--white-color);
+    background: rgba(255, 255, 255, 0.1);
+}
 
 
 /* clients-section */
@@ -419,10 +424,7 @@ color: var(--white-color);
     text-transform: uppercase;
     color: var(--white-color);
 }
-.social-media__link--color{
-    fill: var(--white-color);
-    background: rgba(255, 255, 255, 0.1);
-}
+
 
 /* porfolio page */
 
@@ -439,6 +441,7 @@ color: var(--white-color);
 
 .filter__button{
     background-color: var(--team-bcg-color);
+    color: var(--main-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
